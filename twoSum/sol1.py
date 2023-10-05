@@ -1,6 +1,6 @@
 from typing import List
 
-# brute force approach O(n^2)
+# brute force approach worst case O(n^2)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for n in range(len(nums)):
